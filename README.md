@@ -31,15 +31,6 @@ A modern C++ implementation of a thread-safe data management system with advance
 - Automatic resource cleanup
 - Thread-safe data wrapper
 
-## Configuration Constants
-
-- Maximum worker threads: 10
-- Minimum worker threads: 1
-- Maximum retry count: 3
-- Operation timeout: 300 seconds
-- Queue cleaner interval: 120 seconds
-- Maximum queue size: 20,000
-
 ## Build Requirements
 
 - Modern C++ compiler with C++17 support
