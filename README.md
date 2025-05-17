@@ -3,10 +3,9 @@
 A modern C++ implementation of a thread-safe data management system with advanced locking mechanisms and queue operations.
 
 ## Core Features
-
 - Thread-safe data access with read/write lock support
 - Smart mutex management with deadlock prevention
-- Queued operation system with retry mechanism
+- Queued operation system
 - Automatic thread tracking and lock management
 - Configurable timeout and cleanup mechanisms
 
@@ -18,13 +17,6 @@ A modern C++ implementation of a thread-safe data management system with advance
 - Built-in deadlock prevention
 - Lock conversion capabilities (read to write)
 
-### Queue System
-- Thread-safe operation queue
-- Configurable retry mechanism
-- Automatic cleanup of stale operations
-- Support for multiple worker threads
-- Queue size limits and operation timeouts
-
 ### Thread Safety Features
 - Mutex tracking per thread
 - Lock order management
@@ -32,13 +24,11 @@ A modern C++ implementation of a thread-safe data management system with advance
 - Thread-safe data wrapper
 
 ## Build Requirements
-
 - Modern C++ compiler with C++17 support
 - Standard Template Library (STL)
 - Support for atomic operations and threading
 
 ## Usage
-
 The system provides interfaces for:
 - Thread-safe data access
 - Queued operations
