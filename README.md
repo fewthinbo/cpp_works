@@ -8,6 +8,7 @@ A modern C++ implementation of a thread-safe data management system with advance
 - Queued operation system
 - Automatic thread tracking and lock management
 - Configurable timeout and cleanup mechanisms
+- Reentrant lock support and many more
 
 ## Architecture
 
