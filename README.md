@@ -1,39 +1,23 @@
 # Thread-Safe Data Management System
 
-A modern C++ implementation of a thread-safe data management system with advanced locking mechanisms and queue operations.
+A modern C++ implementation of a thread-safe data management system with advanced smart locking mechanisms and queue operations.
 
-## Core Features
-- Thread-safe data access with read/write lock support
-- Smart mutex management with deadlock prevention
+## Features
+- Thread-safe data access with read/write lock support(RAII data wrapper)
+- Smart mutex management with deadlock prevention (Automatic lock acquisition and release)
 - Queued operation system
 - Automatic thread tracking and lock management
-- Configurable timeout and cleanup mechanisms
 - Reentrant lock support and many more
-
-## Architecture
-
-### Lock System
-- Supports both read and write locks
-- Automatic lock acquisition and release
-- Built-in deadlock prevention
 - Lock conversion capabilities (read to write)
-
-### Thread Safety Features
 - Mutex tracking per thread
-- Lock order management
-- Automatic resource cleanup
-- Thread-safe data wrapper
+- Auto lock order management
 
 ## Build Requirements
-- Modern C++ compiler with C++17 support
-- Standard Template Library (STL)
-- Support for atomic operations and threading
+- C++17
 
-## Usage
-The system provides interfaces for:
-- Thread-safe data access
-- Queued operations
-- Lock management
-- Data wrapper utilities
+## Usage (in cmd)
+> mkdir build
+> cd build
+> cmake ..
 
-For detailed implementation examples, refer to the source files in the `Source/Improved` directory.
+For detailed example implementation see example.cpp in the `Source/Improved` directory.
