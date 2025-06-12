@@ -1,4 +1,4 @@
-#include <Singletons/future.h>
+#include <Singletons/future.h> // you can use std::thread or std::async instead of this
 #include <Utility/random_generator.h>
 #include "improved/data_wrapper.h"
 #include "improved/thread_tracker.h"
